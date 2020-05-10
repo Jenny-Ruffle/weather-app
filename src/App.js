@@ -1,26 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
+import {
+  BrowserRouter as Router,
+  Route
+} from "react-router-dom";
 import './App.css';
+import FourteenDayForecast from './pages/FourteenDay'
+import FiveDayForecast from './pages/FiveDay'
+import ThreeDayForecast from './pages/ThreeDay'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <h1 className="App-header">
+          Weather Forecast App
+        </h1>
+        <Route exact path="/" component={FiveDayForecast} />
+        <Route exact path="/three-day" component={ThreeDayForecast} />
+        <Route exact path="/fourteen-day" component={FourteenDayForecast} />
+      </div>  
+    </Router>
   );
 }
 
 export default App;
+

@@ -1,0 +1,19 @@
+.flex-carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    scroll-snap-points-x: repeat(170px);
+}
+
+.flex-carousel_wrapper {
+    width: calc(100vw - 40px);
+    max-width: 1062px;
+    margin: 20px 0;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.flex-carousel::-webkit-scrollbar {
+    height: 0;
+}
