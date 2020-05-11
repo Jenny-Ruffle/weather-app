@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: #7687a9;
+  background-color: #a2b7e0;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -10,13 +10,13 @@
   color: white;
 }
 
-.App-header{
+.App-header {
   font-family: 'Jost', sans-serif;
   font-size: 46px;
   margin: 24px 0 12px;
 }
 
-.page-heading{
+.page-heading {
   font-family: 'Jost', sans-serif;
   font-size: 26px;
   margin: 0 0 48px 0;

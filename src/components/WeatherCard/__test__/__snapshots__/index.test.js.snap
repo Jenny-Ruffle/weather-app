@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Weather card matches the snapshot 1`] = `
+<div
+  className="weather-card"
+>
+  <p
+    className="weather-card_prefix"
+  >
+    11/05
+  </p>
+  <p
+    className="weather-card_prefix"
+  >
+    Monday
+  </p>
+  <h1
+    className="weather-card_temp"
+  >
+    13
+    °c
+  </h1>
+  <img
+    alt="weather-svg"
+    src="cloudy.svg"
+  />
+  <p
+    className="weather-card_prefix"
+  >
+    High: 
+    14
+    °c | Low: 
+    8
+    °c
+  </p>
+</div>
+`;
