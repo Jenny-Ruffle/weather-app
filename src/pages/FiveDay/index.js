@@ -1,18 +1,20 @@
-import React from 'react'
+import React, {useContext} from 'react'
 import WeatherCard from '../../components/WeatherCard'
 import FlexCarousel from '../../components/FlexCarousel'
-import data from '../../data'
+import {ForecastContext} from '../../App'
+import transformDay from '../../utils/transformDay'
 
-const FiveDayForecast = () => {
-    const fiveDaysData = data.slice(0,5)
+const FiveDayForecastPage = () => {
+    const forecast = useContext(ForecastContext);
+    const fiveDaysData = forecast.DailyForecasts
     return (
         <div>
             <h3 className='page-heading'>5 day forecast</h3>
             <FlexCarousel>
-                {fiveDaysData.map((item)=><WeatherCard data={item}/>)}
+                {fiveDaysData.map((item, index)=><WeatherCard key={index} data={transformDay(item)}/>)}
             </FlexCarousel>
         </div>
     )
 }
 
-export default FiveDayForecast
+export default FiveDayForecastPage

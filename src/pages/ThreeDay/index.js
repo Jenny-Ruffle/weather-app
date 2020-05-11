@@ -1,18 +1,22 @@
-import React from 'react'
-import WeatherCard from '../../components/WeatherCard'
-import FlexContainer from '../../components/FlexContainer'
-import data from '../../data'
+import React, { useContext } from "react";
+import WeatherCard from "../../components/WeatherCard";
+import FlexContainer from "../../components/FlexContainer";
+import { ForecastContext } from "../../App";
+import transformDay from '../../utils/transformDay'
 
-const ThreeDayForecast = () => {
-    const threeDaysData = data.slice(0,3)
-    return (
-        <div>
-            <h3 className='page-heading'>3 day forecast</h3>
-            <FlexContainer>
-                {threeDaysData.map((item)=><WeatherCard data={item}/>)}
-            </FlexContainer>
-        </div>
-    )
-}
+const ThreeDayForecastPage = () => {
+  const forecast = useContext(ForecastContext);
+  const threeDaysData = forecast.DailyForecasts.slice(0,3)
+  return (
+    <div>
+      <h3 className="page-heading">3 day forecast</h3>
+      <FlexContainer>
+        {threeDaysData.map((item, index) => (
+          <WeatherCard key={index} data={transformDay(item)} />
+        ))}
+      </FlexContainer>
+    </div>
+  );
+};
 
-export default ThreeDayForecast
+export default ThreeDayForecastPage;

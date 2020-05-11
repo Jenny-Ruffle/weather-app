@@ -3,11 +3,11 @@ import WeatherCard from '../../components/WeatherCard'
 import data from '../../data'
 import FlexCarousel from '../../components/FlexCarousel'
 
-const FourteenDayForecast = () => {
+const FourteenDayForecastPage = () => {
     const fourteenDaysData = data.slice(0,14)
     return (
         <div>
-            <h3 className='page-heading'>14 day forecast</h3>
+            <h3 className='page-heading'>14 day forecast - Mock data</h3>
             <FlexCarousel>
                 {fourteenDaysData.map((item)=><WeatherCard data={item}/>)}
             </FlexCarousel>
@@ -15,4 +15,4 @@ const FourteenDayForecast = () => {
     )
 }
 
-export default FourteenDayForecast
+export default FourteenDayForecastPage
