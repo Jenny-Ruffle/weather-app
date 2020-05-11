@@ -4,6 +4,7 @@ import {
   Route
 } from "react-router-dom";
 import './App.css';
+import Navigation from './components/Navigation'
 import FourteenDayForecast from './pages/FourteenDay'
 import FiveDayForecast from './pages/FiveDay'
 import ThreeDayForecast from './pages/ThreeDay'
@@ -15,6 +16,7 @@ function App() {
         <h1 className="App-header">
           Weather Forecast App
         </h1>
+        <Navigation/>
         <Route exact path="/" component={FiveDayForecast} />
         <Route exact path="/three-day" component={ThreeDayForecast} />
         <Route exact path="/fourteen-day" component={FourteenDayForecast} />
