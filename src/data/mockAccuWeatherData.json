@@ -1,0 +1,171 @@
+
+{
+  "Headline": {
+    "EffectiveDate": "2020-05-11T20:00:00+01:00",
+    "EffectiveEpochDate": 1589223600,
+    "Severity": 7,
+    "Text": "Cool Monday night",
+    "Category": "cold",
+    "EndDate": "2020-05-12T08:00:00+01:00",
+    "EndEpochDate": 1589266800,
+    "MobileLink": "http://m.accuweather.com/en/gb/london/ec4a-2/extended-weather-forecast/328328?unit=c&lang=en-us",
+    "Link": "http://www.accuweather.com/en/gb/london/ec4a-2/daily-weather-forecast/328328?unit=c&lang=en-us"
+  },
+  "DailyForecasts": [
+    {
+      "Date": "2020-05-11T07:00:00+01:00",
+      "EpochDate": 1589176800,
+      "Temperature": {
+        "Minimum": {
+          "Value": 2.8,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Maximum": {
+          "Value": 12.8,
+          "Unit": "C",
+          "UnitType": 17
+        }
+      },
+      "Day": {
+        "Icon": 4,
+        "IconPhrase": "Intermittent clouds",
+        "HasPrecipitation": false
+      },
+      "Night": {
+        "Icon": 35,
+        "IconPhrase": "Partly cloudy",
+        "HasPrecipitation": false
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://m.accuweather.com/en/gb/london/ec4a-2/daily-weather-forecast/328328?day=1&unit=c&lang=en-us",
+      "Link": "http://www.accuweather.com/en/gb/london/ec4a-2/daily-weather-forecast/328328?day=1&unit=c&lang=en-us"
+    },
+    {
+      "Date": "2020-05-12T07:00:00+01:00",
+      "EpochDate": 1589263200,
+      "Temperature": {
+        "Minimum": {
+          "Value": 5,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Maximum": {
+          "Value": 13.3,
+          "Unit": "C",
+          "UnitType": 17
+        }
+      },
+      "Day": {
+        "Icon": 3,
+        "IconPhrase": "Partly sunny",
+        "HasPrecipitation": false
+      },
+      "Night": {
+        "Icon": 35,
+        "IconPhrase": "Partly cloudy",
+        "HasPrecipitation": false
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://m.accuweather.com/en/gb/london/ec4a-2/daily-weather-forecast/328328?day=2&unit=c&lang=en-us",
+      "Link": "http://www.accuweather.com/en/gb/london/ec4a-2/daily-weather-forecast/328328?day=2&unit=c&lang=en-us"
+    },
+    {
+      "Date": "2020-05-13T07:00:00+01:00",
+      "EpochDate": 1589349600,
+      "Temperature": {
+        "Minimum": {
+          "Value": 4.4,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Maximum": {
+          "Value": 13.3,
+          "Unit": "C",
+          "UnitType": 17
+        }
+      },
+      "Day": {
+        "Icon": 4,
+        "IconPhrase": "Intermittent clouds",
+        "HasPrecipitation": false
+      },
+      "Night": {
+        "Icon": 35,
+        "IconPhrase": "Partly cloudy",
+        "HasPrecipitation": false
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://m.accuweather.com/en/gb/london/ec4a-2/daily-weather-forecast/328328?day=3&unit=c&lang=en-us",
+      "Link": "http://www.accuweather.com/en/gb/london/ec4a-2/daily-weather-forecast/328328?day=3&unit=c&lang=en-us"
+    },
+    {
+      "Date": "2020-05-14T07:00:00+01:00",
+      "EpochDate": 1589436000,
+      "Temperature": {
+        "Minimum": {
+          "Value": 4.2,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Maximum": {
+          "Value": 13.4,
+          "Unit": "C",
+          "UnitType": 17
+        }
+      },
+      "Day": {
+        "Icon": 4,
+        "IconPhrase": "Intermittent clouds",
+        "HasPrecipitation": false
+      },
+      "Night": {
+        "Icon": 33,
+        "IconPhrase": "Clear",
+        "HasPrecipitation": false
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://m.accuweather.com/en/gb/london/ec4a-2/daily-weather-forecast/328328?day=4&unit=c&lang=en-us",
+      "Link": "http://www.accuweather.com/en/gb/london/ec4a-2/daily-weather-forecast/328328?day=4&unit=c&lang=en-us"
+    },
+    {
+      "Date": "2020-05-15T07:00:00+01:00",
+      "EpochDate": 1589522400,
+      "Temperature": {
+        "Minimum": {
+          "Value": 6.3,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Maximum": {
+          "Value": 15.9,
+          "Unit": "C",
+          "UnitType": 17
+        }
+      },
+      "Day": {
+        "Icon": 3,
+        "IconPhrase": "Partly sunny",
+        "HasPrecipitation": false
+      },
+      "Night": {
+        "Icon": 34,
+        "IconPhrase": "Mostly clear",
+        "HasPrecipitation": false
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://m.accuweather.com/en/gb/london/ec4a-2/daily-weather-forecast/328328?day=5&unit=c&lang=en-us",
+      "Link": "http://www.accuweather.com/en/gb/london/ec4a-2/daily-weather-forecast/328328?day=5&unit=c&lang=en-us"
+    }
+  ]
+}
