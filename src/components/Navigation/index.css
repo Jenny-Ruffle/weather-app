@@ -1,0 +1,37 @@
+.navbar {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin: 0;
+    padding: 0 0 32px;
+    justify-content: center;
+}
+
+.navbar_item {
+    display: inline;
+}
+
+.navbar_item_link {
+    display: block;
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+    padding: 0 16px;
+    font: 16px/20px 'Open Sans', sans-serif;
+    letter-spacing: 3px;
+    transition: text-decoration 3s linear;
+
+}
+
+.navbar_item_link:after {
+    content: '';
+    width: 0px;
+    height: 1px;
+    display: block;
+    background: white;
+    transition: 300ms;
+  }
+  
+  .navbar_item_link:hover:after {
+    width: 100%;
+  }
