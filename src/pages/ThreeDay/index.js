@@ -1,11 +1,11 @@
-import React, { useContext } from "react";
+import React from "react";
 import WeatherCard from "../../components/WeatherCard";
 import FlexContainer from "../../components/FlexContainer";
-import { ForecastContext } from "../../App";
+import { useForecastContext } from "../../App";
 import transformDay from '../../utils/transformDay'
 
 const ThreeDayForecastPage = () => {
-  const forecast = useContext(ForecastContext);
+  const forecast = useForecastContext();
   const threeDaysData = forecast.DailyForecasts.slice(0,3)
   return (
     <div>

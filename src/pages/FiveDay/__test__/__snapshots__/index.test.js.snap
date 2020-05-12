@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`5 day page matches snapshot 1`] = `
+exports[`5 day forecast page render 1`] = `
 <div>
   <h3
     className="page-heading"
@@ -19,12 +19,45 @@ exports[`5 day page matches snapshot 1`] = `
         <p
           className="weather-card_prefix"
         >
-          11/05
+          11 / 5
         </p>
         <p
           className="weather-card_prefix"
         >
           Monday
+        </p>
+        <h1
+          className="weather-card_temp"
+        >
+          8
+          °c
+        </h1>
+        <img
+          alt="weather-svg"
+          src="sun-cloud.svg"
+        />
+        <p
+          className="weather-card_prefix"
+        >
+          High: 
+          13
+          °c | Low: 
+          3
+          °c
+        </p>
+      </div>
+      <div
+        className="weather-card"
+      >
+        <p
+          className="weather-card_prefix"
+        >
+          12 / 5
+        </p>
+        <p
+          className="weather-card_prefix"
+        >
+          Tuesday
         </p>
         <h1
           className="weather-card_temp"
@@ -40,7 +73,7 @@ exports[`5 day page matches snapshot 1`] = `
           className="weather-card_prefix"
         >
           High: 
-          19
+          13
           °c | Low: 
           5
           °c
@@ -52,40 +85,7 @@ exports[`5 day page matches snapshot 1`] = `
         <p
           className="weather-card_prefix"
         >
-          12/05
-        </p>
-        <p
-          className="weather-card_prefix"
-        >
-          Tuesday
-        </p>
-        <h1
-          className="weather-card_temp"
-        >
-          12
-          °c
-        </h1>
-        <img
-          alt="weather-svg"
-          src="rain.svg"
-        />
-        <p
-          className="weather-card_prefix"
-        >
-          High: 
-          19
-          °c | Low: 
-          5
-          °c
-        </p>
-      </div>
-      <div
-        className="weather-card"
-      >
-        <p
-          className="weather-card_prefix"
-        >
-          13/05
+          13 / 5
         </p>
         <p
           className="weather-card_prefix"
@@ -95,20 +95,20 @@ exports[`5 day page matches snapshot 1`] = `
         <h1
           className="weather-card_temp"
         >
-          14
+          9
           °c
         </h1>
         <img
           alt="weather-svg"
-          src="rain.svg"
+          src="sun-cloud.svg"
         />
         <p
           className="weather-card_prefix"
         >
           High: 
-          19
+          13
           °c | Low: 
-          5
+          4
           °c
         </p>
       </div>
@@ -118,7 +118,7 @@ exports[`5 day page matches snapshot 1`] = `
         <p
           className="weather-card_prefix"
         >
-          14/05
+          14 / 5
         </p>
         <p
           className="weather-card_prefix"
@@ -128,20 +128,20 @@ exports[`5 day page matches snapshot 1`] = `
         <h1
           className="weather-card_temp"
         >
-          14
+          9
           °c
         </h1>
         <img
           alt="weather-svg"
-          src="light-showers.svg"
+          src="sun-cloud.svg"
         />
         <p
           className="weather-card_prefix"
         >
           High: 
-          19
+          13
           °c | Low: 
-          5
+          4
           °c
         </p>
       </div>
@@ -151,7 +151,7 @@ exports[`5 day page matches snapshot 1`] = `
         <p
           className="weather-card_prefix"
         >
-          15/05
+          15 / 5
         </p>
         <p
           className="weather-card_prefix"
@@ -161,20 +161,20 @@ exports[`5 day page matches snapshot 1`] = `
         <h1
           className="weather-card_temp"
         >
-          15
+          11
           °c
         </h1>
         <img
           alt="weather-svg"
-          src="cloudy.svg"
+          src="day.svg"
         />
         <p
           className="weather-card_prefix"
         >
           High: 
-          19
+          16
           °c | Low: 
-          5
+          6
           °c
         </p>
       </div>
