@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useContext} from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import "./App.css";
 import useForecast from "./utils/useForecast";
@@ -8,6 +8,7 @@ import FiveDayForecastPage from "./pages/FiveDay";
 import ThreeDayForecastPage from "./pages/ThreeDay";
 
 export const ForecastContext = React.createContext(null);
+export const useForecastContext = () => useContext(ForecastContext)
 
 function App() {
   const { data, isLoading, isError } = useForecast();
