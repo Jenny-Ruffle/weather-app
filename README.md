@@ -1,12 +1,14 @@
 Weather App project created using create-react-app, routing with React Router.
 
+![Weather App screenshot](./public/weather-app.png)
+
+
 ## Paths
 | Path | Page |
 | ---------------- | ---------------- |
 | / | default view is 5 day view |
 | /three-day | 3 day forecast |
 | /fourteen-day | 14 day forecast with css horizontal scroll |
-
 
 ## Available Scripts
 
