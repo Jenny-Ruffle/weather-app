@@ -20,11 +20,7 @@ function App() {
           <Navigation />
           <Route exact path="/" component={FiveDayForecastPage} />
           <Route exact path="/three-day" component={ThreeDayForecastPage} />
-          <Route
-            exact
-            path="/fourteen-day"
-            component={FourteenDayForecastPage}
-          />
+          <Route exact path="/fourteen-day" component={FourteenDayForecastPage} />
         </div>
       </ForecastContext.Provider>
     </Router>
